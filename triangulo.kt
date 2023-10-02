@@ -7,7 +7,7 @@ const val ladoC = 6
 fun main(){
     // Genera tres números aleatorios para representar las longitudes de los baleros
 
-    println("Longitudes de los lados:")
+    println("Longitudes de los valores:")
     println("Lado A: $ladoA")
     println("Lado B: $ladoB")
     println("Lado C: $ladoC")
