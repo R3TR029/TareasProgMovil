@@ -1,6 +1,6 @@
 /*Rogelio Rafael Gonzalez Martinez 6NM61*/
 
-fun areaRectangulo(){
+fun main(){
     val base = 15f
     val altura = 3f
     val area = areaRectangulo(base,altura)
