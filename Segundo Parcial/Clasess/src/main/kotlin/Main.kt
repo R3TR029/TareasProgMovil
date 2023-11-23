@@ -19,21 +19,17 @@ import java.security.interfaces.DSAPublicKey
         val (_,gender2,duration2) = scaryMovie
         println("Nuevas Variables $gender2 $duration2")
 
-        /copiar una data class/
+        
         val scaryMovie2 = scaryMovie.copy(name = "Scary Movie 2", duration = 83.8)
         println("Scary Movie 2 $scaryMovie2")
     }*/
 
-/*Companion Objects
-        * Permite crear objetos, variables o métodos en una clase paara utilizarlos sin necesidad de hacer una
-        * instancia*/
+
 /*fun main() {
     val vehiculoInstance = Vehiculo.create()
     var saludo = { println("Hola UPIICSA") }()
 
-    /*Funciones literales
-* Tipo de función que no es declarada
-* Expresiones Lambda: val <nombre de la función>: ={->}
+    /*
     val suma = {a: Int, b: Int -> a + b}
     println(suma(1,2))
     val presentarse: (String,Int) -> String = {name,age -> "Me llamo $name y tengo $age años"}
@@ -51,7 +47,7 @@ import java.security.interfaces.DSAPublicKey
     }
     println(saverGrade(150.0,100.0))*/
 
-/* Expresiones anónimas*/
+
     val saverGrade2 = fun(expected:Double, saved:Double): String{
         val percentage = saved /expected
         return when{
@@ -64,7 +60,7 @@ import java.security.interfaces.DSAPublicKey
     println(saverGrade2(100.0,80.0))
 }*/
 /*fun main() {
-    //Funciones de orden superior
+   
     fun calculadora(a: Int, b:Int, operacion: (Int, Int) -> Int):Int{
         return operacion(a,b)
     }
