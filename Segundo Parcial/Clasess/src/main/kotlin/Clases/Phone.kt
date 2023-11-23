@@ -1,10 +1,10 @@
 package Clases
 
 class Phone {
-    //atributos
+
     var isOn= false
     lateinit var model:String
-    //metodos
+
     fun turnOn(){
         isOn = true
     }
