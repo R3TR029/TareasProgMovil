@@ -30,4 +30,3 @@ abstract class Travel {
                 Precio: $paidAmount""".trimMargin())
     }
 }
-/*El proposito de la clase es crear un modelo general para las clases que si usaremos*/
